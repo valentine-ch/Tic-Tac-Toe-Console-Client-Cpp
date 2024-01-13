@@ -2,7 +2,6 @@
 #include <atomic>
 #include <thread>
 #include <mutex>
-#include <future>
 #include <sstream>
 #include "io.h"
 #include "states.h"
