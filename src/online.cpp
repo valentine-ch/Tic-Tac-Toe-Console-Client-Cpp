@@ -475,10 +475,11 @@ void printInvitations(const std::deque<Invitation>& invitations)
     }
     else
     {
+        std::cout << "This is the list of your incoming invitations:\n";
         for (int i{}; i < invitations.size(); ++i)
         {
-            std::cout << "This the list of your incoming invitations:\n" <<
-                "Invitation #" << i + 1 << ' ' << invitations[i] << '\n';
+            std::cout << "Invitation #" << i + 1 << ' '
+                << invitations[i] << '\n';
         }
     }
 }
